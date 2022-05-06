@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizza Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+
+		<div class="title">
+			<div>
+				<a href="#" class="logo">BITE</a>
+				<h6 href="#">Restaurant & BBQ</h6>
+			</div>
+			<a href="#" class="nav_img"><img src="images/shopping-cart.png"></a>
+		</div>
+
+		<!-- Banner -->
+		<div class="banner">
+			<div class="content">
+				<h1> BITE   WORLD</h1>
+				<a href="#" class="btn">View Menu</a>
+				<ul>
+					<li><a href="#"><img src="images/pizza.png.png"></a></li>
+					<li><a href="#"><img src="images/burger1.png"></a></li>
+					<li><a href="#"><img src="images/cofee1.png"></a></li>
+					<li><a href="#"><img src="images/lemonade.png"></a></li>
+				</ul>
+			</div>
+			
+		    <div class="ban_img">
+		    	<img src="images/mainn.png" id="hawaiianpizza">
+		    </div>
+		</div>
+
+		<!-- Item List -->
+		
+		<div class="items">
+
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/veg.png" id="item1">
+				</div>
+				<div class="info">
+					<h5 href="#">Vegeterian Salaa</h5>
+					<h6>Italian Chopped Salad</h6>
+					<p>$10.00</p>
+					
+					<a href="#">Add to cart</a>
+				</div>
+				<div class="like">
+					<img src="images/heart.png">
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/mainn.png" id="item2">
+				</div>
+				<div class="info">
+					<h5 href="#">Barbecue Kebabs</h5>
+					<h6>BBQ Skewer</h6>
+					<p>$15.00</p>
+					
+					<a href="#">Add to cart</a>
+				</div>
+				<div class="like">
+					<img src="images/heart.png">
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/fried.png" id="item3">
+				</div>
+				<div class="info">
+					<h5 href="#">Fried chicken</h5>
+					<h6>Hot chicken</h6>
+					<p>$20.00</p>
+					<a href="#">Add to cart</a>
+				</div>
+				<div class="like">
+					<img src="images/heart.png">
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/fish.png" id="item4">
+				</div>
+				<div class="info">
+					<h5 href="#">Sea Food</h5>
+					<h6>Spicy with garlic</h6>
+					<p>$10.00</p>
+					
+					<a href="#">Add to cart</a>
+				</div>
+				<div class="like">
+					<img src="images/heart.png">
+				</div>
+			</div>
+
+		</div>
+		
+		<div class="other_items">
+			<div class="contentBx">
+				<h3>Biryani also avaliable</h3>
+				<p>
+					Chicken Biryani is a savory chicken and rice dish that includes layers <br> <br>
+					of chicken, rice, and aromatics that are steamed together.<br> <br> 
+					The bottom layer of rice absorbs all the chicken juices as it cooks,,<br> <br>giving it a tender texture and rich flavor, while the top layer <br> <br> of rice turns out white and fluffy.</p>
+			    <a href="#">View Menu</a>
+			</div>
+			<div class="other_img">
+				<img src="images/biryani.png" id="biryani">
+			</div>
+		</div>
+	
+
+		<div class="delivery">
+			<div class="boy">
+				<img src="images/boy.png">
+			</div>
+			<div class="contentBx">
+				<h3>Home delivery also available</h3>
+				<p></p>
+			    <a href="#">Order Now</a>
+			</div>
+		</div>
+		<div class="reserve">
+			<h3>Want to Reserve a table</h3>
+			<a href="#">Contact us Now</a>
+		</div>
+	
+
+		<!-- Footer -->
+		<div class="footer"> 
+			<div class="name">
+				<a href="#" class="logo">BITE</a>
+				<h6 href="#">Restaurant & BBQ</h6>
+			</div>
+			<div class="our_service">
+				<h4>Our Services</h4>
+				<ul>
+					<li>Food serve</li>
+					<li>Pricing</li>
+					<li>Tracking</li>
+					<li>Terms of Services</li>
+				</ul>
+			</div>
+			<div class="our_company">
+				<h4>Our Company</h4>
+				<ul>
+					<li>Reporting</li>
+					<li>Get in Touch</li>
+					<li>Management</li>
+				</ul>
+			</div>
+			<div class="Address">
+				<h4>Address</h4>
+				<ul>
+					<li>12 divison,</li>
+					<li>Ap,India,</li>
+					<li>888-123-4442</li>
+					<li>info@example.com</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript">
+		window.onscroll = function () {
+			scrollRotate();
+		};
+		function scrollRotate() {
+			
+			let image2 = document.getElementById("item1");
+			let image3 = document.getElementById("item2");
+			let image4 = document.getElementById("item3");
+			let image5 = document.getElementById("item4");
+			let image6 = document.getElementById("biryani");
+		
+			image2.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
+			image3.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
+			image4.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
+			image5.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
+			image6.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
+		}
+	</script> 
+</body>
+</html>
